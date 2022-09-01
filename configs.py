@@ -9,7 +9,7 @@ class Config(object):
     API_ID = int(os.environ.get("API_ID"))
     API_HASH = os.environ.get("API_HASH")
     # Get This From @StringSessionGen_Bot
-    BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     # Forward From Chat ID
     FORWARD_FROM_CHAT_ID = list(set(int(x) for x in os.environ.get("FORWARD_FROM_CHAT_ID", "-100").split()))
     # Forward To Chat ID
