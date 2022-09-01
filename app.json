@@ -17,7 +17,7 @@
         "API_HASH": {
             "description": "Get this value from my.telegram.org or @TeleORG_Bot"
         },
-        "STRING_SESSION": {
+        "BOT_TOKEN": {
             "description": "Get this from @StringSessionGen_Bot"
         },
         "FORWARD_FROM_CHAT_ID": {
