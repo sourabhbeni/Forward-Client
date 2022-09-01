@@ -13,7 +13,7 @@ from configs import Config
 from helpers.kanger import Kanger
 from helpers.forwarder import ForwardMessage
 
-User = Client(session_name=Config.STRING_SESSION, api_hash=Config.API_HASH, api_id=Config.API_ID)
+User = Client(session_name="CHANNELFORWARD", bot_token = Config.BOT_TOKEN, api_hash=Config.API_HASH, api_id=Config.API_ID)
 
 
 @User.on_message((filters.text | filters.media) & ~filters.edited)
